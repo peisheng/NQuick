@@ -1,0 +1,12 @@
+bin/
+logs/
+obj/
+*.suo
+/*.suo
+*.v11.suo
+*.nupkg
+*.nuspec.txt
+*.nuspec
+NuGet.exe
+.suo
+.v11.suo
