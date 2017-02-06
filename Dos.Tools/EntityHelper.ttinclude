@@ -9,8 +9,8 @@
 <#+
     public class EntityHelper
     {
-        public static List<Entity> GetEntities(string connectionString, List<string> databases)
-        {
+        public static List<Entity> GetEntities()
+        {			
             var list = new List<Entity>();
             var conn = new MySqlConnection(connectionString);
             try
@@ -121,6 +121,12 @@
                     return dbType;
             }
         }
+	// 数据库连接
+    public static string connectionString = @"server=127.0.0.1;uid=root;pwd=840904aA;charset=utf8;";
+
+    // 需要解析的数据库
+    public static List<string> databases = new List<string> { "sflh" };
+	 
     }
 
     public class Entity
