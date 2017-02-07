@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tool", "Tool", "{1201428A-F99E-4832-B0E2-77BAAD17CC39}"
+	ProjectSection(SolutionItems) = preProject
+		T4\Entity.tt = T4\Entity.tt
+		T4\EntityHelper.ttinclude = T4\EntityHelper.ttinclude
+		T4\T4Manager.ttinclude = T4\T4Manager.ttinclude
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{659C396D-A1A3-42EC-9FA5-1B5602855462}"
 EndProject
@@ -30,8 +35,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dos.ORM.MySql", "Dos.ORM\Dos.ORM.MySql\Dos.ORM.MySql.csproj", "{54954798-4117-45FE-92F8-2B32A62E7FBC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dos.ORM.NoSql", "Dos.ORM.NoSql\Dos.ORM.NoSql.csproj", "{66115C98-A7D3-4234-9AB5-6CE1EF60216B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dos.Tool", "Dos.Tools\Dos.Tool.csproj", "{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,19 +140,8 @@ Global
 		{66115C98-A7D3-4234-9AB5-6CE1EF60216B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66115C98-A7D3-4234-9AB5-6CE1EF60216B}.Release|x86.ActiveCfg = Release|Any CPU
 		{66115C98-A7D3-4234-9AB5-6CE1EF60216B}.Release|x86.Build.0 = Release|Any CPU
-		{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4}.Debug|x86.Build.0 = Debug|Any CPU
-		{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4}.Release|x86.ActiveCfg = Release|Any CPU
-		{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F073175B-8B7A-4EFB-AD8C-8F8CBB4133A4} = {1201428A-F99E-4832-B0E2-77BAAD17CC39}
 	EndGlobalSection
 EndGlobal

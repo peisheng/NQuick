@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Dos.ORM.NoSql;
 
 
-namespace Demo.DataCache.Base
+namespace NQuick.DataCache.Base
 {
     /// <summary>
     /// 可以根据情况使用不同的缓存机制。这里也可以做成反射+缓存机制来动态配置使用哪种缓存机制。

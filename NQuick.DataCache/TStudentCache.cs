@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Demo.DataModel;
-using Demo.DataCache.Base;
+using NQuick.DataModel;
+using NQuick.DataCache.Base;
 
 
 namespace Demo.DataCache

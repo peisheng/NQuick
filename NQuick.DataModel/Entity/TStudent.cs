@@ -15,7 +15,7 @@ using System.Data.Common;
 using Dos.ORM;
 using Dos.ORM.Common;
 
-namespace Demo.DataModel
+namespace NQuick.DataModel
 {
 
     /// <summary>

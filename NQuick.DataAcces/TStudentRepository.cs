@@ -17,12 +17,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Demo.DataModel;
-using Demo.Common;
-using Demo.DataAccess.Base;
-using Demo.DataModel.Base;
+using NQuick.DataModel;
+using NQuick.Common;
+using NQuick.DataAccess.Base;
+using NQuick.DataModel.Base;
 
-namespace Demo.DataAccess
+namespace NQuick.DataAccess
 {
     /// <summary>
     /// 数据库处理层。多表联查、复杂的Dos.ORM写法都可以丢到这层来写。
