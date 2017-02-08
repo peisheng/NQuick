@@ -26,9 +26,8 @@ using Dos.ORM.Common;
 
 namespace NQuick.DataAccess.Base
 {
-    public abstract class Repository<T> where T : Entity//: IRepository<T> 
-    {
-         
+    public abstract class Repository<T> where T : Entity 
+    {    
         static Repository()
         {
             Db.Context.RegisterSqlLogger(delegate(string sql)
@@ -38,6 +37,7 @@ namespace NQuick.DataAccess.Base
                 LogHelper.Debug(sql, "SQL日志");
             });
         }
+       
         #region 查询
         /// <summary>
         /// 获取整表数据

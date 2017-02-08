@@ -32,9 +32,9 @@ namespace NQuick.DataAccess
         /// <summary>
         /// 
         /// </summary>
-        public TStudentRepository()
+        public TStudentRepository() 
         {
-            
+           
         }
     }
 }
