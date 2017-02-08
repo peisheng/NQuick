@@ -18,7 +18,7 @@ namespace NQuick.UI.Controllers
         public ActionResult Index()
         {
             productsLogic prod = new productsLogic();
-            BaseResult result= prod.GetProduct();
+           // BaseResult result= prod.GetProduct();
             prod.insert();
 
             return View();

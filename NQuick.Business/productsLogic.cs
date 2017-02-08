@@ -32,8 +32,16 @@ namespace NQuick.Business
 
         public bool insert()
         {
+            List<products> list = new List<products>();
+            for (int i = 0; i < 1000; i++)
+            {
+                products prod = new products();
+                prod.product_name = "sssss" + i.ToString();
+                prod.product_id = "sssproducutid" + i;
+                list.Add(prod);
+            }
             var rep = new productsRepository();
-            int i= rep.Insert(new products() { });
+            int ddd= rep.Insert(list);
             return true;
         }
     }
