@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Dos.Common;
 
-namespace Demo.Common
+namespace NQuick.Common
 {
     public class Common
     {

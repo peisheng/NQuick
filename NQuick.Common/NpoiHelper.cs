@@ -22,7 +22,7 @@ using System.IO;
 using NPOI.XSSF.UserModel;
 using NPOI.SS.UserModel;
 
-namespace Demo.Common
+namespace NQuick.Common
 {
     public class NpoiHelper
     {

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Demo.Business;
-using Demo.Common;
-using Demo.DataModel;
-using Demo.DataModel.Base;
+using NQuick.Business;
+using NQuick.Common;
+using NQuick.DataModel;
+using NQuick.DataModel.Base;
 
-namespace Demo.UI.Controllers
+namespace NQuick.UI.Controllers
 {
     [ErrorLog]
     public class HomeController : CommonController

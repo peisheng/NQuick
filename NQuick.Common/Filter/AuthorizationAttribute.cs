@@ -24,7 +24,7 @@ using System.Text;
 using System.Web.Mvc;
 
 
-namespace Demo.Common
+namespace NQuick.Common
 {
     /// <summary>
     /// 表示需要用户登录才可以使用的特性

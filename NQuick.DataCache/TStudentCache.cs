@@ -6,7 +6,7 @@ using NQuick.DataModel;
 using NQuick.DataCache.Base;
 
 
-namespace Demo.DataCache
+namespace NQuick.DataCache
 {
     public class TStudentCache : CacheBase
     {

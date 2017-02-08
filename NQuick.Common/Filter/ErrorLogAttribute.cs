@@ -21,7 +21,7 @@ using System.Web;
 using System.Web.Mvc;
 using Dos.Common;
 
-namespace Demo.Common
+namespace NQuick.Common
 {
     /// <summary>
     /// 表示一个特性，该特性用于处理由操作方法引发的异常。

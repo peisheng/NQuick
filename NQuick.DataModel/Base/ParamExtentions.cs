@@ -20,7 +20,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Demo.DataModel.Base
+namespace NQuick.DataModel.Base
 {
     public class TStudentParam : Param
     {

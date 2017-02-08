@@ -18,7 +18,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Demo.Common
+namespace NQuick.Common
 {
     public class Msg
     {

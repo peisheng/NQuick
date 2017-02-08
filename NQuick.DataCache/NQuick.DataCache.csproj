@@ -48,6 +48,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\CacheBase.cs" />
+    <Compile Include="Cache - 复制1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cache - 复制.tt1</DependentUpon>
+    </Compile>
+    <Compile Include="Cache.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cache.tt</DependentUpon>
+    </Compile>
     <Compile Include="TStudentCache.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,6 +78,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Cache - 复制.tt1">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Cache - 复制1.cs</LastGenOutput>
+    </None>
     <Content Include="Cache.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Cache.cs</LastGenOutput>

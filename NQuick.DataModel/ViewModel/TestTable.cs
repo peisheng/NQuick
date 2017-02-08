@@ -4,7 +4,7 @@ using System.Data.Common;
 using Dos.ORM;
 using Dos.ORM.Common;
 
-namespace Demo.DataModel
+namespace NQuick.DataModel
 {
     /// <summary>
     /// 如果前端不需要Test1、Test2、Test3这三个字段，可以建立此ViewModel。

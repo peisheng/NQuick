@@ -24,7 +24,7 @@ using System.Xml;
 using Dos.Common;
 
 
-namespace Demo.Common
+namespace NQuick.Common
 {
     public class CommonController : Controller
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Dos.Common;
 using Dos.ORM;
 
-namespace Demo.DataAccess.Base
+namespace NQuick.DataAccess.Base
 {
     public class Db
     {

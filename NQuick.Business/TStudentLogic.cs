@@ -7,13 +7,13 @@ using System.Text;
 using Dos.Common;
 using Dos.ORM;
 using System.Data.Common;
-using Demo.Common;
-using Demo.DataAccess;
-using Demo.DataModel.Base;
-using Demo.DataModel;
-using Demo.DataCache;
+using NQuick.Common;
+using NQuick.DataAccess;
+using NQuick.DataModel.Base;
+using NQuick.DataModel;
+using NQuick.DataCache;
 
-namespace Demo.Business
+namespace NQuick.Business
 {
     public class TStudentLogic
     {

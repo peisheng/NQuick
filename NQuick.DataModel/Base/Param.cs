@@ -19,7 +19,7 @@ using System.Linq;
 using System.Text;
 using System.Runtime.Serialization;
 
-namespace Demo.DataModel.Base
+namespace NQuick.DataModel.Base
 {
     [DataContract(IsReference = true)]
     public abstract class Param

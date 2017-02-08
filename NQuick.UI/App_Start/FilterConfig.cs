@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Demo.UI
+namespace NQuick.UI
 {
     public class FilterConfig
     {

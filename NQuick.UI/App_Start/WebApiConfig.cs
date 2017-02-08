@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace Demo.UI
+namespace NQuick.UI
 {
     public static class WebApiConfig
     {

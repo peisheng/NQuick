@@ -24,10 +24,11 @@ using Dos.Common;
 using Dos.ORM;
 using Dos.ORM.Common;
 
-namespace Demo.DataAccess.Base
+namespace NQuick.DataAccess.Base
 {
     public abstract class Repository<T> where T : Entity//: IRepository<T> 
     {
+         
         static Repository()
         {
             Db.Context.RegisterSqlLogger(delegate(string sql)
