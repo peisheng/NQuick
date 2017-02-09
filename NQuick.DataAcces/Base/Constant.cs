@@ -10,8 +10,8 @@ namespace NQuick.DataAccess.Base
 {
     public class Constant
     {
-        public const string DbConnectionName= "MySqlConn";
-        public const string DbConnectionName2 = "MySql";
+        public const string DbConnectionName= "MySqlDb1";
+        public const string DbConnectionName2 = "MySqlDb2";
 
     }
 }

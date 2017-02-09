@@ -45,17 +45,435 @@
     <Compile Include="Base\Constant.cs" />
     <Compile Include="Base\Db.cs" />
     <Compile Include="Base\DbAdapter.cs" />
-    <Compile Include="Gen\favoritesRepository.cs">
-      <DependentUpon>DataAccess.tt</DependentUpon>
+    <Compile Include="Gen\adminRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Gen\high_productsRepository.cs">
-      <DependentUpon>DataAccess.tt</DependentUpon>
+    <Compile Include="Gen\app_black_listRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Gen\normal_productsRepository.cs">
-      <DependentUpon>DataAccess.tt</DependentUpon>
+    <Compile Include="Gen\app_infoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Gen\productsRepository.cs">
-      <DependentUpon>DataAccess.tt</DependentUpon>
+    <Compile Include="Gen\app_pay_recordRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\app_pay_record_succRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\app_pay_record_viewRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\app_recordRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\app_record_succRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\app_sdk_recordRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\app_service_infoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\app_white_listRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\black_listRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\by_miscid_limitRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\channelidRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\channel_month_appinfoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\channel_month_cp_cooperateRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\channel_month_cp_infoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\channel_month_cp_provinceRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\channel_month_orderRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\channel_month_requestRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\city_cp_infoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\closed_infoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\closed_setRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\closed_set_copyRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\common_statusRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\cp_cooperateRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\cp_cooperate_infoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\cp_infoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\cp_limitRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\cp_province_deductRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\cp_province_deduct_logRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\cp_service_typeRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\cp_urlRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_app_reportRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_app_report_todayRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_app_report_viewRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_byh5_reportRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_by_reportRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_by_report_copy1Repository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_by_report_copyRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_by_report_todayRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_by_report_viewRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_channel_reportRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_channel_report_todayRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_channel_report_viewRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_history_by_reportRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_reportRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_report_ksgrRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_report_todayRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\daily_report_viewRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\DataAccessDb2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\DataAccessDb1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\datereport_qdb_uploadRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\datereport_qdb_upload_tempRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\datereport_tsRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\datereport_ts_infoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\datereport_ts_info_copyRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\datereport_ts_remarkRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\datereport_ts_tempRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\datereport_uploadRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\datereport_upload_copyRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\datereport_upload_tempRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\ddo_recordRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\ddo_record_succRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\ddo_record_tempRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\deptRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\game_infoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\h5_charge_recordRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\h5_month_appinfoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\h5_month_requestRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\icity_tfRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\ip_numRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\ismp_sms_recordRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\league_cutRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\limit_autoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\logRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\lovecartoon_month_recordRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\menuRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\mobile_miscidRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\month_reportRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\new_type_cpRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\phone_ipRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\phone_pwdRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_app_feeRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_app_fee_copyRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_app_infoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_app_priceRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_channelid_todayRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_channel_idRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_cp_infoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_datereportRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_datereport_todayRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_datereport_viewRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_hj_setRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_hj_set_copyRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\pj_sp_infoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\privilegeRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\provinceRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\province_cityRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\qdb_ts_txtRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\qdb_ts_txt_infoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\qdb_ts_txt_info_tempRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\qdb_ts_txt_resultRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\quartzRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\quartz_checkRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\quartz_localRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\quartz_userRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\rdo_recordRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\rdo_record_succRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\regionRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\service_infoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\service_info_comic_feeRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\service_matchRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\service_typeRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\sp_infoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\status_infoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\tb_adminsRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\tb_admin_classRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\tb_admin_deptRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\tb_loginlogRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\tb_menu_privilegeRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\temp_cp_infoRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\temp_phone1Repository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\temp_phone2Repository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\temp_phoneRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\temp_phone_hsRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\temp_testRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\temp_test_copyRepository.cs">
+      <DependentUpon>DataAccessDb1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\ts_cpnRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\ts_cpn_infoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\ts_uploadRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\ts_upload_infoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\ts_upload_info_resultRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\vc_sdk_appinfoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\vc_sdk_recordRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\vc_sms_charge_moRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\vc_sms_charge_mo_succRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\vc_sms_charge_recordRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\vc_sms_charge_record_succRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\vc_sms_month_appinfoRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\vc_sms_month_recordRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gen\white_listRepository.cs">
+      <DependentUpon>DataAccessDb2.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Base\Repository.cs" />
@@ -84,9 +502,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Gen\DataAccess.tt">
+    <Content Include="Gen\DataAccessDb2.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>DataAccess.cs</LastGenOutput>
+      <LastGenOutput>DataAccessDb2.cs</LastGenOutput>
+    </Content>
+    <Content Include="Gen\DataAccessDb1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DataAccessDb1.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
